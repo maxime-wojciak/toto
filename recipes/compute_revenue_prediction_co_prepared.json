@@ -3,12 +3,17 @@
   "neverRecomputeExistingPartitions": false,
   "optionalDependencies": false,
   "params": {
+    "engineType": "SPARK",
     "engineParams": {
       "spark": {
         "readParams": {
           "mode": "AUTO",
           "autoModeRepartitionInto": 10,
-          "map": {}
+          "map": {
+            "revenue_prediction_co": {
+              "repartition": 10
+            }
+          }
         },
         "useGlobalMetastore": false,
         "useNativeProcessors": true,
@@ -68,11 +73,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1642000916714
+    "lastModifiedOn": 1642000927082
   },
   "creationTag": {
     "versionNumber": 0,

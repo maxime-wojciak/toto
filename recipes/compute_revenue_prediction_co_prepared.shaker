@@ -26,7 +26,10 @@
     "autoRefreshSample": false
   },
   "explorationFilters": [],
-  "exploreUIParams": {},
+  "origin": "PREPARE_RECIPE",
+  "exploreUIParams": {
+    "autoRefresh": true
+  },
   "steps": [],
   "maxProcessedMemTableBytes": -1,
   "previewMode": "ALL_ROWS",
@@ -35,7 +38,15 @@
     "autoRefreshSample": false
   },
   "analysisColumnData": {},
-  "columnWidthsByName": {},
+  "columnWidthsByName": {
+    "pages_visited": 113,
+    "campain": 100,
+    "ip": 120,
+    "ip_country": 141,
+    "prediction": 141,
+    "customer_id": 127,
+    "ip_geopoint": 183
+  },
   "sorting": [],
   "globalSearchQuery": "",
   "coloring": {

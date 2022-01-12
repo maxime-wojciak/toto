@@ -1,0 +1,155 @@
+{
+  "type": "chart",
+  "params": {
+    "datasetSmartName": "crm_and_web_history_enriched",
+    "engineType": "LINO",
+    "refreshableSelection": {
+      "selection": {
+        "useMemTable": false,
+        "filter": {
+          "distinct": false,
+          "enabled": false
+        },
+        "partitionSelectionMethod": "ALL",
+        "latestPartitionsN": 1,
+        "samplingMethod": "HEAD_SEQUENTIAL",
+        "maxRecords": 30000,
+        "targetRatio": 0.02,
+        "withinFirstN": -1,
+        "maxReadUncompressedBytes": -1
+      },
+      "autoRefreshSample": false,
+      "_refreshTrigger": 0
+    },
+    "def": {
+      "type": "scatter",
+      "variant": "normal",
+      "name": "Count by ip_country",
+      "userEditedName": true,
+      "genericDimension0": [],
+      "genericDimension1": [],
+      "genericMeasures": [],
+      "xDimension": [],
+      "yDimension": [],
+      "uaXDimension": [
+        {
+          "column": "revenue",
+          "type": "NUMERICAL",
+          "treatAsAlphanum": false,
+          "sortBy": "NATURAL",
+          "sortAscending": false,
+          "isA": "ua"
+        }
+      ],
+      "uaYDimension": [
+        {
+          "column": "pages_visited",
+          "type": "NUMERICAL",
+          "treatAsAlphanum": false,
+          "sortBy": "NATURAL",
+          "sortAscending": false,
+          "isA": "ua"
+        }
+      ],
+      "uaSize": [],
+      "uaShape": [],
+      "uaColor": [
+        {
+          "column": "age",
+          "type": "NUMERICAL",
+          "treatAsAlphanum": false,
+          "isA": "ua",
+          "adminLevel": 0
+        }
+      ],
+      "uaTooltip": [],
+      "groupDimension": [],
+      "xMeasure": [],
+      "yMeasure": [],
+      "colorMeasure": [],
+      "sizeMeasure": [],
+      "geometry": [],
+      "tooltipMeasures": [],
+      "boxplotBreakdownDim": [],
+      "boxplotValue": [],
+      "filters": [
+        {
+          "filterType": "ALPHANUM_FACET",
+          "column": "ip_country",
+          "columnType": "ALPHANUM",
+          "isA": "filter",
+          "excludedValues": {
+            "Qatar": true,
+            "Madagascar": true,
+            "Zimbabwe": true,
+            "Afghanistan": true
+          },
+          "explicitExclude": false
+        }
+      ],
+      "axis1LogScale": true,
+      "axis2LogScale": false,
+      "includeZero": true,
+      "smoothing": false,
+      "showLegend": false,
+      "showXAxis": false,
+      "strokeWidth": 1,
+      "hexbinRadius": 20,
+      "hexbinNumber": 20,
+      "hexbinRadiusMode": "NUM_HEXAGONS",
+      "colorOptions": {
+        "singleColor": "#659a88",
+        "transparency": 0.9,
+        "colorPalette": "default",
+        "ccScaleMode": "NORMAL"
+      },
+      "colorPaletteType": "LINEAR",
+      "bubblesOptions": {
+        "defaultRadius": 4.0
+      },
+      "computeMode": "NORMAL",
+      "xAxisMode": "NORMAL",
+      "yAxisMode": "NORMAL",
+      "pieOptions": {
+        "donutHoleSize": 50.0
+      },
+      "scatterOptions": {
+        "equalScales": false,
+        "identityLine": false
+      },
+      "mapOptions": {
+        "tilesLayer": "mapquest-std",
+        "lockSquareGrid": false
+      },
+      "mapGridOptions": {
+        "gridLonDeg": 0.6,
+        "gridLatDeg": 0.6
+      },
+      "disableSafetyLimits": false,
+      "useLiveProcessingIfAvailable": true
+    }
+  },
+  "owner": "admin",
+  "listed": true,
+  "name": "Count by ip_country",
+  "versionTag": {
+    "versionNumber": 2,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1486149167605
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1400768279741
+  },
+  "description": "",
+  "shortDesc": "",
+  "tags": [],
+  "checklists": {
+    "checklists": []
+  }
+}

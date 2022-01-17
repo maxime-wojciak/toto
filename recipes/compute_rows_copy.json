@@ -4,6 +4,7 @@
   "optionalDependencies": false,
   "params": {
     "schemaMode": "STRICT_SYNC",
+    "engineType": "SPARK",
     "forcePipelineableForTests": false,
     "engineParams": {
       "maxThreads": 4,
@@ -74,11 +75,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1642427490999
+    "lastModifiedOn": 1642427844573
   },
   "creationTag": {
     "versionNumber": 0,

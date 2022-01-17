@@ -1,7 +1,12 @@
 {
   "name": "woz",
   "color": "#D03713",
-  "items": [],
+  "items": [
+    {
+      "objectId": "rows",
+      "objectType": "DATASET"
+    }
+  ],
   "shared": [],
   "tags": [],
   "customFields": {},

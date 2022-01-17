@@ -26,7 +26,10 @@
     "autoRefreshSample": false
   },
   "explorationFilters": [],
-  "exploreUIParams": {},
+  "origin": "PREPARE_RECIPE",
+  "exploreUIParams": {
+    "autoRefresh": true
+  },
   "steps": [],
   "maxProcessedMemTableBytes": -1,
   "previewMode": "ALL_ROWS",
@@ -35,7 +38,19 @@
     "autoRefreshSample": false
   },
   "analysisColumnData": {},
-  "columnWidthsByName": {},
+  "columnWidthsByName": {
+    "on_street": 162,
+    "from_stree": 148,
+    "_address": 300,
+    "shape_len": 113,
+    "_id": 141,
+    "_uuid": 267,
+    "restrict_t": 120,
+    "to_street": 218,
+    "the_geom": 300,
+    "objectid": 100,
+    "_position": 100
+  },
   "sorting": [],
   "globalSearchQuery": "",
   "coloring": {

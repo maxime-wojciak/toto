@@ -1,5 +1,3 @@
 {
-  "_namespace": "toto",
-  "_context": "i-0e6bf780f6e5b2117@woz-eks.eu-west-3.eksctl.io",
-  "_kube_config": "/data/dataiku/.kube/config_2"
+  "_namespace": "toto"
 }

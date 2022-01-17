@@ -5,6 +5,14 @@
     {
       "objectId": "rows",
       "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_rows_copy",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "rows_copy",
+      "objectType": "DATASET"
     }
   ],
   "shared": [],

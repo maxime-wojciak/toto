@@ -17,6 +17,10 @@
     {
       "objectId": "pyspark-output",
       "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_pyspark-output",
+      "objectType": "RECIPE"
     }
   ],
   "shared": [],

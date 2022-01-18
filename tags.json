@@ -65,6 +65,7 @@
     },
     "creator_admin": {
       "color": "#1ac2ab"
-    }
+    },
+    "recipe-editor": {}
   }
 }

@@ -61,11 +61,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1642499126075
+    "lastModifiedOn": 1642499187276
   },
   "creationTag": {
     "versionNumber": 0,
@@ -91,8 +91,53 @@
     }
   },
   "schema": {
-    "columns": [],
-    "userModified": true
+    "columns": [
+      {
+        "name": "on_street",
+        "type": "string"
+      },
+      {
+        "name": "from_stree",
+        "type": "string"
+      },
+      {
+        "name": "_address",
+        "type": "string"
+      },
+      {
+        "name": "shape_len",
+        "type": "string"
+      },
+      {
+        "name": "_id",
+        "type": "string"
+      },
+      {
+        "name": "_uuid",
+        "type": "string"
+      },
+      {
+        "name": "restrict_t",
+        "type": "string"
+      },
+      {
+        "name": "to_street",
+        "type": "string"
+      },
+      {
+        "name": "the_geom",
+        "type": "string"
+      },
+      {
+        "name": "objectid",
+        "type": "string"
+      },
+      {
+        "name": "_position",
+        "type": "string"
+      }
+    ],
+    "userModified": false
   },
   "dkuProperties": [],
   "metrics": {

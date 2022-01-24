@@ -22,10 +22,6 @@ def first_call():
     return json.dumps({"status": "ok", "data": data})
 
 
-import dataiku
-import json
-from flask import request
-
 TRUSTED_GROUP = "administrators"
 
 @app.route('/get-sensitive-data')

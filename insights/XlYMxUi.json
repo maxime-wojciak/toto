@@ -1,0 +1,31 @@
+{
+  "type": "web_app",
+  "params": {
+    "webAppSmartId": "OKZVRu9",
+    "webAppType": "STANDARD",
+    "apiKey": "hiCevtJ8qJikhlSPh1lmvSGIg3snGUT0"
+  },
+  "owner": "admin",
+  "listed": false,
+  "name": "test",
+  "dashboardCreationId": "QdCQjzW",
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1643035644310
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1643035644310
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}

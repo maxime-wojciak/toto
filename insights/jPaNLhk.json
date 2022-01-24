@@ -1,0 +1,30 @@
+{
+  "type": "web_app",
+  "params": {
+    "webAppSmartId": "OKZVRu9",
+    "webAppType": "STANDARD"
+  },
+  "owner": "admin",
+  "listed": false,
+  "name": "test",
+  "dashboardCreationId": "PAkWzb4",
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1643037067139
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1643037067139
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}

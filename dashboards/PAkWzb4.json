@@ -3,7 +3,27 @@
     {
       "id": "91qthNS",
       "grid": {
-        "tiles": []
+        "tiles": [
+          {
+            "tileType": "INSIGHT",
+            "box": {
+              "top": -1,
+              "left": -1,
+              "width": 3,
+              "height": 3
+            },
+            "clickAction": "DO_NOTHING",
+            "tileParams": {
+              "loadTimeoutInSeconds": 0
+            },
+            "autoLoad": true,
+            "showTitle": "NO",
+            "insightId": "jPaNLhk",
+            "insightType": "web_app",
+            "displayMode": "INSIGHT",
+            "resizeImageMode": "FIT_SIZE"
+          }
+        ]
       },
       "title": "webapp",
       "showTitle": false
@@ -14,11 +34,11 @@
   "name": "webapp",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1643037056574
+    "lastModifiedOn": 1643037067141
   },
   "creationTag": {
     "versionNumber": 0,

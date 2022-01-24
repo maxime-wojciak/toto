@@ -34,17 +34,17 @@
       },
       "deploymentModifier": {}
     },
-    "forceAuthentication": true
+    "forceAuthentication": false
   },
   "config": {},
   "name": "test",
   "apiKey": "hiCevtJ8qJikhlSPh1lmvSGIg3snGUT0",
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1643036105907
+    "lastModifiedOn": 1643036388763
   },
   "creationTag": {
     "versionNumber": 0,

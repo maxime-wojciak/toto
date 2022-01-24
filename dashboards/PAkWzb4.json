@@ -7,10 +7,10 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": -1,
-              "left": -1,
-              "width": 3,
-              "height": 3
+              "top": 0,
+              "left": 0,
+              "width": 12,
+              "height": 6
             },
             "clickAction": "DO_NOTHING",
             "tileParams": {
@@ -34,11 +34,11 @@
   "name": "webapp",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 3,
+    "versionNumber": 4,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1643037067670
+    "lastModifiedOn": 1643037081475
   },
   "creationTag": {
     "versionNumber": 0,

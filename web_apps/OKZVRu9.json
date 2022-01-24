@@ -4,7 +4,7 @@
   "params": {
     "backendEnabled": true,
     "enableJavascriptModules": false,
-    "autoStartBackend": false,
+    "autoStartBackend": true,
     "hideJSSecurityPanel": false,
     "envSelection": {
       "envMode": "INHERIT"
@@ -40,11 +40,11 @@
   "name": "test",
   "apiKey": "hiCevtJ8qJikhlSPh1lmvSGIg3snGUT0",
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1643035602078
+    "lastModifiedOn": 1643036105907
   },
   "creationTag": {
     "versionNumber": 0,

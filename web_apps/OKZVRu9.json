@@ -40,11 +40,11 @@
   "name": "test",
   "apiKey": "hiCevtJ8qJikhlSPh1lmvSGIg3snGUT0",
   "versionTag": {
-    "versionNumber": 6,
+    "versionNumber": 7,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1643036398015
+    "lastModifiedOn": 1643036404548
   },
   "creationTag": {
     "versionNumber": 0,

@@ -1,0 +1,25 @@
+[
+  {
+    "execSQLLike": false,
+    "localDatasets": [],
+    "projectPrivileges": {
+      "admin": false,
+      "readProjectContent": false,
+      "writeProjectContent": false,
+      "exportDatasetsData": false,
+      "readDashboards": false,
+      "writeDashboards": false,
+      "moderateDashboards": false,
+      "runScenarios": false,
+      "manageDashboardAuthorizations": false,
+      "manageExposedElements": false,
+      "manageAdditionalDashboardUsers": false,
+      "executeApp": false
+    },
+    "onBehalf": "OKZVRu9",
+    "id": "34CjSFRgCqAgsgdi",
+    "key": "hiCevtJ8qJikhlSPh1lmvSGIg3snGUT0",
+    "label": "Key for Web app test(OKZVRu9)",
+    "createdOn": 1643035550499
+  }
+]

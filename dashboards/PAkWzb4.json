@@ -30,15 +30,15 @@
     }
   ],
   "owner": "admin",
-  "listed": false,
+  "listed": true,
   "name": "webapp",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 6,
+    "versionNumber": 7,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1643037249644
+    "lastModifiedOn": 1643037367976
   },
   "creationTag": {
     "versionNumber": 0,

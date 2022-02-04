@@ -21,6 +21,14 @@
     {
       "objectId": "compute_pyspark-output",
       "objectType": "RECIPE"
+    },
+    {
+      "objectId": "compute_rows_copy_copy",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "rows_copy_copy",
+      "objectType": "DATASET"
     }
   ],
   "shared": [],
